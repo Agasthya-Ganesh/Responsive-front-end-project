@@ -1,0 +1,83 @@
+
+
+@media screen and (max-width:991px){
+    html{
+        font-size: 55%;
+        
+    }
+    .header{
+        padding: 1.5rem 2rem;
+    }
+    
+    #menu-btn{
+        display: inline;
+    }
+    .header .navbar{
+        position: absolute;
+        top: 12.4vh; 
+        right: -100vw;
+        background: #fff;
+        width: 30rem;
+        height: 65vh;
+        }
+
+    .header .navbar.active{
+        right: 0;
+        top: 14vh;
+    }
+
+    .header .navbar a{
+        color: var(--black);
+        display: block;
+        margin:1.5rem;
+        padding: 0.5rem;
+        font-size: 2rem;
+        }
+
+    .home{
+        background-position:left;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+   
+    
+    
+}
+
+@media screen and (max-width:600px){
+   .icons{
+    margin-right: 15vw;
+   }
+
+}
+
+@media screen and (max-width:450px){
+    .icons{
+     margin-right: 15vw;
+    }
+ 
+ }
+
+ @media screen and (max-width:861px){
+    .contact .concontainer .location .map{
+        width:100vw;
+        height: 40vh;
+        padding:2rem 7%;
+    }
+
+    .about .abtcontainer .image img{
+        width:100vw;
+        height: 40vh;
+        padding:2rem 7%;
+    }
+ }
+
+ @media screen and (max-width:360px){
+    body{
+        display: none;
+    }
+ }
+
+
